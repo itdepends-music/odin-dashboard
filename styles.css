@@ -16,6 +16,15 @@ body {
     background-color: #232634;
 }
 
+.sidebar h1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 16px;
+    font-weight: 400;
+    vertical-align: center;
+}
+
 .header {
     background-color: #292c3c;
 }
