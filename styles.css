@@ -1,11 +1,14 @@
 /* Color scheme is catppucin frappe */
 
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;500&display=swap');
+
 body {
     height: 100vh;
     display: grid;
     grid-template-columns: 300px 1fr;
     grid-template-rows: auto 1fr;
     color: #c6d0f5;
+    font-family: 'Saira Condensed', sans-serif;
 }
 
 .sidebar {
