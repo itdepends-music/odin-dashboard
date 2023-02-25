@@ -53,6 +53,45 @@ body {
     padding: 16px;
 }
 
+.main-content h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
 .projects {
     grid-row-end: span 2;
+}
+
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 450px));
+    margin-top: 16px;
+}
+
+.project-card {
+    border: 1px solid 	#949cbb;
+    border-left: 8px solid #8caaee;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #292c3c;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.project-card h3,
+.project-card p {
+    padding: 0;
+    margin: 0;
+}
+
+.card-icons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+    gap: 8px;
 }
