@@ -67,8 +67,9 @@ body {
 
 .project-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 450px));
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
     margin-top: 16px;
+    gap: 16px;
 }
 
 .project-card {
