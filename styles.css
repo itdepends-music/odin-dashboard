@@ -110,3 +110,30 @@ body {
 .annoucement:not(:last-child) {
     border-bottom: 1px solid #949cbb;
 }
+
+.trending-card {
+    border: 1px solid #949cbb;
+    background-color: #232634;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+
+.trending-profile {
+    margin: 16px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    grid-column-gap: 16px;
+}
+
+.trending-profile-pic {
+    grid-row-end: span 2;
+    width: 50px;
+    height: 50px;
+    background-color: #e78284;
+    border-radius: 100%;
+}
+
+.trending-usertag {
+    font-weight: 600;
+}
