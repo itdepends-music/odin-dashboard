@@ -72,6 +72,7 @@ body {
     align-items: center;
     font-weight: 500;
     gap: 12px;
+    justify-content: flex-end;
 }
 
 .header-profile-pic {
@@ -98,6 +99,20 @@ body {
 
 .username {
     font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.buttons-bottom {
+    display: flex;
+    gap: 16px;
+}
+
+.buttons-bottom > button {
+    background-color: #8caaee;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 16px;
+    color: #232634;
     font-weight: 500;
 }
 
