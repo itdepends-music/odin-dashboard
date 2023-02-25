@@ -97,3 +97,15 @@ body {
     margin-top: auto;
     gap: 8px;
 }
+
+.annoucements-card {
+    background-color:#232634;
+    border: 1px solid #949cbb;
+    padding: 16px;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+
+.annoucement:not(:last-child) {
+    border-bottom: 1px solid #949cbb;
+}
