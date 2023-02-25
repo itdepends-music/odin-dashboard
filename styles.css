@@ -96,6 +96,11 @@ body {
     background-color: #e78284;  
 }
 
+.username {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
 .main-content {
     background-color: #303446;
     display: grid;
