@@ -47,6 +47,7 @@ body {
     display: grid;
     align-items: center;
     padding: 24px;
+    grid-row-gap: 16px;
 }
 
 .search {
@@ -78,6 +79,21 @@ body {
     width: 25px;
     height: 25px;
     background-color: #e78284;
+}
+
+.welcome {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    grid-column-gap: 16px;
+}
+
+.large-header-profile-pic {
+    grid-row-end: span 2;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: #e78284;  
 }
 
 .main-content {
